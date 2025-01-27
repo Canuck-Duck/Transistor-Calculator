@@ -124,7 +124,6 @@
 	(net 42 "unconnected-(U1-SWCLK-Pad41)")
 	(net 43 "unconnected-(U1-GPIO18-Pad24)")
 	(net 44 "unconnected-(U1-GPIO27_ADC1-Pad32)")
-	(net 45 "unconnected-(U1-GND-Pad23)")
 	(footprint "AT28C64B-15PU:DIP1555W45P254L3733H482Q28"
 		(layer "F.Cu")
 		(uuid "1a455afc-138e-4ddb-89cf-a9847722f0f1")
@@ -140,7 +139,7 @@
 				)
 			)
 		)
-		(property "Value" "AT28C64B"
+		(property "Value" "AT28C64B-15PU"
 			(at 0.7787 0.15 0)
 			(layer "F.SilkS")
 			(uuid "3aa74a44-03ae-478d-9597-4ed1e7062804")
@@ -4087,7 +4086,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "unconnected-(U1-GND-Pad23)")
+			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
 			(uuid "c7935ce3-928c-4d57-807b-cc3568e17e76")
@@ -4099,7 +4098,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 45 "unconnected-(U1-GND-Pad23)")
+			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
 			(uuid "deaf08da-760e-4a85-9ef6-a7786025320a")
@@ -5713,6 +5712,14 @@
 		(uuid "3c55f584-9268-457d-a9ed-75307fbb7ddd")
 	)
 	(segment
+		(start 87.44255 71.86)
+		(end 68.12 71.86)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "5bc15338-0ed3-4d6a-ba20-6cce6215701a")
+	)
+	(segment
 		(start 103.0001 56.62)
 		(end 103.0001 59.16)
 		(width 0.2)
@@ -5727,6 +5734,14 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "94c9def3-2f47-4317-9c05-1dce0c3950a5")
+	)
+	(segment
+		(start 68.12 71.86)
+		(end 67.5 72.48)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "e53b4323-506c-457c-9bd7-4879e7d13769")
 	)
 	(segment
 		(start 103.0001 49)
