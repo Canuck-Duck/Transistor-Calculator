@@ -1,0 +1,3773 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "44f5637b-1907-4f8d-9659-a5b3cd02a5b7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x08_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08_Pin"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_Pin_1_1"
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 160.02 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d12c06-7075-4510-b85b-2dbb5baee56c")
+	)
+	(junction
+		(at 160.02 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd78a66-e166-401c-b82e-8f5e60f3264f")
+	)
+	(junction
+		(at 162.56 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13b6da58-1e6a-49f7-aa45-98042be1fb95")
+	)
+	(junction
+		(at 115.57 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b931af9-5cee-47bd-a652-421afb91aa77")
+	)
+	(junction
+		(at 162.56 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20d17216-4f9c-4c4e-a361-29e61d83ad9b")
+	)
+	(junction
+		(at 80.01 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "227e6a8c-cba7-433a-ac66-62535e8dd022")
+	)
+	(junction
+		(at 162.56 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31118223-757a-440c-95af-24acb2a27119")
+	)
+	(junction
+		(at 162.56 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33343418-8efd-48b4-83d0-ddeba4c425d5")
+	)
+	(junction
+		(at 102.87 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "365699e1-3c3a-484b-b140-af9eb01a8ea4")
+	)
+	(junction
+		(at 162.56 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3abbf5c1-4600-4f7f-9655-6c68d08ac532")
+	)
+	(junction
+		(at 90.17 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c0edb3a-7d81-41b4-b701-ba426a6efc7d")
+	)
+	(junction
+		(at 162.56 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4291a17f-4b3b-4267-a0a7-56fed78a87ea")
+	)
+	(junction
+		(at 129.54 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48bf88fd-791e-4477-98d0-04cde14cea1b")
+	)
+	(junction
+		(at 160.02 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cbccc8d-a860-48e1-8829-a66041e48c90")
+	)
+	(junction
+		(at 160.02 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57e86350-7b40-4d7a-abc3-8453e685f1bb")
+	)
+	(junction
+		(at 162.56 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6934fc87-33ca-4328-a4bb-a2508601466c")
+	)
+	(junction
+		(at 160.02 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d056efe-38b3-46e0-b025-28d2a98a973d")
+	)
+	(junction
+		(at 78.74 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f6ff1f8-6595-4cd8-b5cd-6d1657e3644d")
+	)
+	(junction
+		(at 160.02 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e0f2059-c581-4e0c-9e20-d731e442eb84")
+	)
+	(junction
+		(at 128.27 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82f8a310-deb5-42c8-8a9c-6e4712691968")
+	)
+	(junction
+		(at 116.84 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d41898a-442f-43f9-98a6-228c3c459513")
+	)
+	(junction
+		(at 91.44 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9988836b-70dd-45cc-8958-424708d89c11")
+	)
+	(junction
+		(at 67.31 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a68c89d1-0ddb-4297-91af-72bd833c809a")
+	)
+	(junction
+		(at 53.34 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adbfd829-d7cc-482e-9c6d-c68522016ad5")
+	)
+	(junction
+		(at 104.14 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b628f0a9-bf9d-437e-b7c3-de54f72e148d")
+	)
+	(junction
+		(at 66.04 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c27f9382-0175-4338-89a2-a384fb478cba")
+	)
+	(junction
+		(at 54.61 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6cab7f0-d229-48f8-bd8b-a1dca654bc72")
+	)
+	(junction
+		(at 160.02 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dba35af2-02b1-4144-95a3-17f864e700f4")
+	)
+	(junction
+		(at 162.56 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbde9a77-aed8-4916-94e4-021e9cf9f750")
+	)
+	(junction
+		(at 160.02 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5dcf5e2-bbb1-44ec-9969-ba13794169ab")
+	)
+	(junction
+		(at 50.8 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed684743-71f9-432e-b3a1-974612e822ee")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01aa9aff-ca2b-466f-bf81-f7e32b7055da")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 151.13 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0237c637-4d03-489b-9b98-bdaaa19878db")
+	)
+	(wire
+		(pts
+			(xy 76.2 95.25) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032f1644-b5d5-47f1-8337-9a8394e840ae")
+	)
+	(wire
+		(pts
+			(xy 53.34 92.71) (xy 66.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047b1008-da64-4b15-b1e4-d48e560692b7")
+	)
+	(wire
+		(pts
+			(xy 160.02 59.69) (xy 160.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e5a63b-8735-4c16-95d0-79cdfe0ac523")
+	)
+	(wire
+		(pts
+			(xy 162.56 45.72) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100835e6-2a9f-4a16-b91c-5884e6a8047d")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e68ff5-9cef-4fd5-a98c-cc6b8ad58e37")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161b45db-1b07-4d4b-afb5-70674ec53d11")
+	)
+	(wire
+		(pts
+			(xy 162.56 43.18) (xy 170.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bc1a5f-8757-4e49-988f-89f5cef462a8")
+	)
+	(wire
+		(pts
+			(xy 67.31 50.8) (xy 67.31 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bea3a11-2918-4488-9343-a021770ebef1")
+	)
+	(wire
+		(pts
+			(xy 154.94 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210039ad-c0f6-4d21-a691-587377271ae8")
+	)
+	(wire
+		(pts
+			(xy 76.2 109.22) (xy 157.48 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220f32dc-951a-4cf9-92dc-f2b9e82a421a")
+	)
+	(wire
+		(pts
+			(xy 162.56 48.26) (xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cc6b51-9843-44af-a713-3c8dff7d2b1c")
+	)
+	(wire
+		(pts
+			(xy 88.9 107.95) (xy 156.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e7659b-dee5-4004-b4c5-fe5c68fac95e")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d8ec94-1fa7-4241-ae38-cdd0af93d72a")
+	)
+	(wire
+		(pts
+			(xy 151.13 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a6fdf4-78c2-4274-9f80-08c2fcd414f0")
+	)
+	(wire
+		(pts
+			(xy 157.48 57.15) (xy 157.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e18ff6-3ba0-488c-a86b-bece6c4b2d8f")
+	)
+	(wire
+		(pts
+			(xy 90.17 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343913a5-5e61-42a4-ac0b-ac58391927d1")
+	)
+	(wire
+		(pts
+			(xy 64.77 110.49) (xy 64.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b9f61c-0b7e-44ad-8451-51a42c0ec31f")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d1e967-41c4-432c-91c5-66a729e0b2d2")
+	)
+	(wire
+		(pts
+			(xy 160.02 95.25) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e6c768-24de-4d39-991f-f09495b3c1cd")
+	)
+	(wire
+		(pts
+			(xy 160.02 90.17) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad0df13-b3e7-49a6-a9f8-6cdfe38ad36e")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88) (xy 156.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e16331f-d79d-4c1c-9567-84a53cb03d59")
+	)
+	(wire
+		(pts
+			(xy 50.8 90.17) (xy 50.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414d2963-e619-4bb7-9475-7fe155d0930c")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4385f1e5-af27-4df0-b1f4-b3a5328dcf74")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45cf1af3-a204-4f3d-915a-826957f06b09")
+	)
+	(wire
+		(pts
+			(xy 161.29 58.42) (xy 162.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f9333c-a379-4c66-b8b4-0b66995065ce")
+	)
+	(wire
+		(pts
+			(xy 162.56 53.34) (xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6c7787-3cab-4f91-98f7-61fc7857cd83")
+	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 88.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5d1e2b-3982-491d-9f76-d9194f78f459")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 100.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4a2d48-42de-4282-be99-2d7be93d4ad3")
+	)
+	(wire
+		(pts
+			(xy 162.56 58.42) (xy 170.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f57ceb2-98e7-4a94-8f62-7c80c09921fb")
+	)
+	(wire
+		(pts
+			(xy 125.73 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52963e57-d68c-4fdc-9191-a2bfb4d40ac4")
+	)
+	(wire
+		(pts
+			(xy 156.21 102.87) (xy 160.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558a60f9-c323-4252-90d6-04b457a0ef24")
+	)
+	(wire
+		(pts
+			(xy 77.47 50.8) (xy 78.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58286139-3451-4075-8f13-63fa7894adff")
+	)
+	(wire
+		(pts
+			(xy 151.13 92.71) (xy 160.02 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fa1946-164a-4d7c-978b-13a41315c7be")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 116.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5913bf1b-2f92-4974-9985-26d8e30bbffc")
+	)
+	(wire
+		(pts
+			(xy 154.94 45.72) (xy 162.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6a0390-2257-432a-8186-6f7adcb47476")
+	)
+	(wire
+		(pts
+			(xy 160.02 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca00b85-6cd9-45e1-acfc-a4ef22d652f1")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 128.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd639bf-3491-4faa-9dd1-8397ed92afee")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddf1eac-4ace-4085-822e-5c2d0b7b1027")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.18) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd32364-76c9-4df4-a707-1f704d283b26")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 91.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6484d5e3-89ce-403b-abce-d682fae6cd91")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 154.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65257290-5d14-4150-913b-26bc4f5cecd2")
+	)
+	(wire
+		(pts
+			(xy 78.74 59.69) (xy 160.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69dca269-664b-404e-a45c-ea5c0e44561e")
+	)
+	(wire
+		(pts
+			(xy 156.21 48.26) (xy 162.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7080da22-503b-4961-b92e-0d9b88111fb0")
+	)
+	(wire
+		(pts
+			(xy 78.74 50.8) (xy 78.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72884ded-73e5-4c8c-8287-ffa78a65bd78")
+	)
+	(wire
+		(pts
+			(xy 156.21 107.95) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a97ffd-1258-495e-bbe4-cdab64c1f0de")
+	)
+	(wire
+		(pts
+			(xy 158.75 58.42) (xy 158.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7401f989-40c1-4144-b5b9-cde928066ac7")
+	)
+	(wire
+		(pts
+			(xy 162.56 50.8) (xy 170.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d93142-cd05-403a-99f2-3eebbecfeff5")
+	)
+	(wire
+		(pts
+			(xy 149.86 90.17) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6362cd-aa8d-4087-a194-bfe083b29b10")
+	)
+	(wire
+		(pts
+			(xy 78.74 92.71) (xy 90.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c534ff7-5127-46a1-9293-5e61f6fce226")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 153.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd7d1b0-6975-437b-abcc-f34da9a2a00d")
+	)
+	(wire
+		(pts
+			(xy 161.29 60.96) (xy 161.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f18e6d8-f809-4323-b418-6a6dd55d1e17")
+	)
+	(wire
+		(pts
+			(xy 152.4 95.25) (xy 160.02 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f200e0e-75c7-4bc1-ae64-3dcb1fba6502")
+	)
+	(wire
+		(pts
+			(xy 153.67 53.34) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd3463c-44f3-4f77-9b25-e1addbbfda0a")
+	)
+	(wire
+		(pts
+			(xy 162.56 55.88) (xy 170.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82135bac-fe5c-41a9-857e-40b4ef0c9c79")
+	)
+	(wire
+		(pts
+			(xy 152.4 40.64) (xy 162.56 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835a2d6a-6040-4f40-b65f-2dda4d9c8f85")
+	)
+	(wire
+		(pts
+			(xy 91.44 48.26) (xy 104.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836ec619-ae9b-4d23-93e6-5d95f3849179")
+	)
+	(wire
+		(pts
+			(xy 140.97 53.34) (xy 153.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e749b1-625a-462a-9309-2aa031bfae16")
+	)
+	(wire
+		(pts
+			(xy 160.02 97.79) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8564c318-568d-4788-9522-47667660fb86")
+	)
+	(wire
+		(pts
+			(xy 157.48 105.41) (xy 160.02 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891495c6-ad61-47d1-9b25-4138ea4e740d")
+	)
+	(wire
+		(pts
+			(xy 91.44 58.42) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbc6431-5058-4ba2-ba25-e0bbad95711c")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4ed25c-ba4c-49bb-b73e-84ee3cf026ed")
+	)
+	(wire
+		(pts
+			(xy 125.73 95.25) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9154ee3d-897a-4155-8ea5-4e3184f95e10")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 140.97 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944af62e-a067-4c2f-96f8-6cb0b80abe7c")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956cd0d4-3fc0-478d-8950-95c1843b105e")
+	)
+	(wire
+		(pts
+			(xy 160.02 55.88) (xy 162.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9970d69c-96cf-4fcc-ae07-2a6c7e80e283")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f07cc7d-cfa9-4c96-a28d-e4c921f326fc")
+	)
+	(wire
+		(pts
+			(xy 54.61 48.26) (xy 67.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f209997-3d2b-439e-aa48-b4fa3ffc93b6")
+	)
+	(wire
+		(pts
+			(xy 127 50.8) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a131fbbd-d123-4e9a-8d00-964e31343bbc")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 157.48 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c0bdf3-71a8-4a43-9176-bc49c41a9119")
+	)
+	(wire
+		(pts
+			(xy 160.02 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98a2164-789c-444e-9aaf-af5c15b94baa")
+	)
+	(wire
+		(pts
+			(xy 151.13 102.87) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cbd2c5-c873-456b-93d8-a45e78854d17")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad9fd06-1ff1-4344-b944-85f11e92ba26")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa6b09d-d679-4842-b1bf-b085c82b5a44")
+	)
+	(wire
+		(pts
+			(xy 153.67 43.18) (xy 162.56 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b155b3cd-0ec9-4f0a-bc99-f5bb16a2be07")
+	)
+	(wire
+		(pts
+			(xy 64.77 50.8) (xy 67.31 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e4bfa0-9fd3-43a6-9272-a7ed1aa42672")
+	)
+	(wire
+		(pts
+			(xy 154.94 106.68) (xy 154.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69efbe4-5e89-402e-ab58-ce146102a04c")
+	)
+	(wire
+		(pts
+			(xy 158.75 110.49) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f32666-6a03-4564-b60f-b3bca437c134")
+	)
+	(wire
+		(pts
+			(xy 156.21 55.88) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacc4933-711a-4121-a4e6-ba503e04f629")
+	)
+	(wire
+		(pts
+			(xy 129.54 48.26) (xy 140.97 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10bd7fd-b5c7-4ce3-a387-2627021054bd")
+	)
+	(wire
+		(pts
+			(xy 153.67 97.79) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1eb2127-3258-4952-a38e-0b980810d94c")
+	)
+	(wire
+		(pts
+			(xy 158.75 107.95) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f9c819-1f21-4db4-ac7f-af5aed5efa8e")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 140.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7ffcfc-b199-4a2d-82d4-303dfa6fda44")
+	)
+	(wire
+		(pts
+			(xy 116.84 50.8) (xy 116.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebe2297-255a-4815-aa98-7ed08ab0ed74")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedc2bbf-bb0f-4c46-af9d-132035a07726")
+	)
+	(wire
+		(pts
+			(xy 128.27 50.8) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef02fe8-32d2-4b5b-a8c1-de12e6405023")
+	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c3ed1e-5c57-49ae-b864-d46e2287356d")
+	)
+	(wire
+		(pts
+			(xy 104.14 50.8) (xy 104.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d620172e-c0f7-401c-83d0-a2e213d31465")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 162.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da011093-45c7-4e54-b619-996b0c558efe")
+	)
+	(wire
+		(pts
+			(xy 50.8 92.71) (xy 53.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc21bc72-7af9-4a90-87e4-443c78076741")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 161.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de030dd0-26fc-4f27-80aa-74b4e72ffbab")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df972e7d-d941-4aa2-9c43-9eaf7a8e7bab")
+	)
+	(wire
+		(pts
+			(xy 162.56 40.64) (xy 170.18 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfade0c0-815c-4dba-a8e7-6c6065562666")
+	)
+	(wire
+		(pts
+			(xy 67.31 48.26) (xy 80.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27b67f2-ab8b-42ce-9fd6-76ea33ddf6fc")
+	)
+	(wire
+		(pts
+			(xy 64.77 95.25) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ee9766-0118-47da-b84c-57d755f8b6ef")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0ab9af-a78a-4fe1-a754-75e77bd8eaa4")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc0e6f6-4d53-4416-b09e-fc92f057f1de")
+	)
+	(wire
+		(pts
+			(xy 158.75 53.34) (xy 162.56 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1048e28-4003-469c-80aa-3cc9308e910a")
+	)
+	(wire
+		(pts
+			(xy 154.94 54.61) (xy 154.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fa527f-17aa-454e-b9aa-ec78ad8138d3")
+	)
+	(wire
+		(pts
+			(xy 102.87 92.71) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d4eb6f-f02f-4990-82f3-ba061a831b5a")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 166.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6878592-c091-41e4-8f56-00eb49fea86f")
+	)
+	(wire
+		(pts
+			(xy 66.04 92.71) (xy 78.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa317685-8acd-461f-961a-b9451ebfce9a")
+	)
+	(wire
+		(pts
+			(xy 104.14 48.26) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe26e45f-6af1-4461-8195-313ae467abae")
+	)
+	(wire
+		(pts
+			(xy 64.77 110.49) (xy 158.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe939128-6ebc-4bfd-8d4d-12b1f712bab6")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05eb46af-9677-4632-89a4-f043d8f33df0")
+		(property "Reference" "#PWR01"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ce6e468-3431-4518-8344-ccebd16dfae5")
+		)
+		(instances
+			(project ""
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 146.05 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06f37c3e-bf7b-4533-ab17-63e34e50fed9")
+		(property "Reference" "SW8"
+			(at 146.05 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 146.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "66d08002-89f6-4c00-b8f4-6439b81d78b8")
+		)
+		(pin "1"
+			(uuid "eeaacd0d-c86f-4383-b979-170e76d66ea8")
+		)
+		(pin "2"
+			(uuid "4ce7573d-fef6-4813-a4ec-2b039a75cbc0")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 165.1 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08404bc4-8200-47c7-bf9c-a4267c25c375")
+		(property "Reference" "J3"
+			(at 161.036 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 161.036 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c297f67e-99fb-4d5b-b846-169283813932")
+		)
+		(pin "8"
+			(uuid "0db23aec-e917-4986-9df5-5b79aa04570f")
+		)
+		(pin "6"
+			(uuid "4441b71d-89cb-4a08-9b3e-584926170fc6")
+		)
+		(pin "7"
+			(uuid "34e0421e-3272-4e74-b991-4d9cb26d296f")
+		)
+		(pin "1"
+			(uuid "fbae422a-bc5f-47ee-bd7d-d8926c1c1ce5")
+		)
+		(pin "5"
+			(uuid "d5c5bdb3-32a6-48a7-a362-420dc58b65c8")
+		)
+		(pin "2"
+			(uuid "e4f4f6b9-4c6b-4420-a165-aa76f5d0235f")
+		)
+		(pin "3"
+			(uuid "15c46433-d8f1-431d-905b-bfd2d098026e")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 95.25 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12d16364-d87a-47a9-aa54-1a541235e8c5")
+		(property "Reference" "SW12"
+			(at 95.25 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d98d0c1-d8ba-4535-9424-d4edf4b2b481")
+		)
+		(pin "1"
+			(uuid "aa7677d8-360e-4169-9c35-40dbc56bab84")
+		)
+		(pin "2"
+			(uuid "10a5835f-c3db-4bbc-956d-76b5a3d87811")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 72.39 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2327a7ce-9b0b-495f-8383-6f0b17b88f13")
+		(property "Reference" "SW2"
+			(at 72.39 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 72.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 72.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "52fc0cc6-fdbf-48ff-84dd-1ba921896da0")
+		)
+		(pin "1"
+			(uuid "6da310ef-31d8-452d-873b-77a869fe29be")
+		)
+		(pin "2"
+			(uuid "5a54dc93-7be9-4d46-be9d-fe27a8237d86")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e7005c7-bd3c-4738-8dc0-12fa3e86c813")
+		(property "Reference" "#PWR02"
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83379b6a-a66c-41ce-a946-b36ca19f1516")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 120.65 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "418adaee-42b4-44a4-bbeb-55fde9e79d9d")
+		(property "Reference" "SW14"
+			(at 120.65 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 120.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ab7766ce-4d9c-4e8d-baec-0fba97cb55ba")
+		)
+		(pin "1"
+			(uuid "7006e289-780e-4394-af62-7e9579951f93")
+		)
+		(pin "2"
+			(uuid "ad264fdb-81a6-45f6-95b8-42f516bdf4eb")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 83.82 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "480d8e99-26dc-4160-bd2a-83c98dbc6573")
+		(property "Reference" "SW11"
+			(at 83.82 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 83.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 83.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d6671d0-597a-478d-9011-00045b5aa699")
+		)
+		(pin "1"
+			(uuid "1b9b3dfa-e841-4246-a875-518947cc4593")
+		)
+		(pin "2"
+			(uuid "586c8cc3-6f6a-4440-856f-2ca199b82d2b")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 175.26 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60d52b41-570d-4716-8466-e523af2cd97c")
+		(property "Reference" "J2"
+			(at 171.196 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 171.196 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a00d0732-69c5-4d6a-88d5-a48919b0da97")
+		)
+		(pin "8"
+			(uuid "b77a900f-e6c4-45fd-a1d0-4a1261145bc0")
+		)
+		(pin "6"
+			(uuid "86cda1d1-e3b5-4398-977f-47517db4d2d5")
+		)
+		(pin "7"
+			(uuid "51d398e3-b7a1-41f4-bad5-62a34320666d")
+		)
+		(pin "1"
+			(uuid "d42d44ba-2509-4ac6-9ee5-0924a0c986a8")
+		)
+		(pin "5"
+			(uuid "2777ad92-b2ca-4090-bae9-5f1e403a1005")
+		)
+		(pin "2"
+			(uuid "54643b80-fc56-488f-9ee2-43a8f4963e3d")
+		)
+		(pin "3"
+			(uuid "692a3d3c-e4d6-4ecd-a33a-736ac95704a4")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 121.92 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66dd0476-6543-4f1e-8eb2-f3ac7d7cd848")
+		(property "Reference" "SW6"
+			(at 121.92 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a6c4d2be-d785-4260-acdc-024e937079ed")
+		)
+		(pin "1"
+			(uuid "395a8a83-0f56-4fc6-a078-53c07ac548eb")
+		)
+		(pin "2"
+			(uuid "b905a9a8-0a46-401c-9f56-bd5e454de654")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 109.22 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6758bfe0-3700-4ff3-950b-478e0e69c56e")
+		(property "Reference" "SW5"
+			(at 109.22 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 109.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a331cb60-7b6a-40be-bf4d-a3b0bbb966d7")
+		)
+		(pin "1"
+			(uuid "0ce1739a-bd48-454e-916f-868be6ee96fc")
+		)
+		(pin "2"
+			(uuid "2798b09f-5bf8-44d5-ba78-37b108cfcb4c")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 144.78 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cfee355-ec23-4af1-baea-a8331419a37e")
+		(property "Reference" "SW16"
+			(at 144.78 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "88ed9c24-0638-4f60-ab47-ceeea6af0d80")
+		)
+		(pin "1"
+			(uuid "fc0f25ea-fc09-4a8b-b596-86af2cf08cba")
+		)
+		(pin "2"
+			(uuid "9807d731-5c38-4167-8374-ed725c9e3c8d")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 59.69 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f431511-a264-4420-bbd8-7cfea9ccee85")
+		(property "Reference" "SW1"
+			(at 59.69 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 59.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5217232b-b8a5-48a6-bf96-5c41ac305101")
+		)
+		(pin "1"
+			(uuid "108c5db5-9f5d-4e24-9bae-d17760e36f54")
+		)
+		(pin "2"
+			(uuid "920b0f1f-a146-45fc-a2e2-4c305dee6cf4")
+		)
+		(instances
+			(project ""
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 167.64 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "716e92a0-712d-4c0b-b00a-79129f26c919")
+		(property "Reference" "J1"
+			(at 163.576 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 163.576 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ee6733f8-3687-4a99-91d4-419ce33002f9")
+		)
+		(pin "8"
+			(uuid "feb41058-ac69-4627-ad7f-6757fe7bdb0f")
+		)
+		(pin "6"
+			(uuid "89ca1946-dcae-4ebf-bda4-51a121b0f2aa")
+		)
+		(pin "7"
+			(uuid "9a27b2d6-cc98-452c-a927-a200eafa3689")
+		)
+		(pin "1"
+			(uuid "a913a9c0-bbc5-467f-a8f5-00725d2b3209")
+		)
+		(pin "5"
+			(uuid "a69ed409-2fd5-437a-b2c4-44c0542cae88")
+		)
+		(pin "2"
+			(uuid "034c4972-0e56-4cd8-a8ec-f742f459b2a0")
+		)
+		(pin "3"
+			(uuid "81642bb2-d219-475d-ab9f-dac130ad9e71")
+		)
+		(instances
+			(project ""
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 171.45 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "782ab4d4-b55d-4809-b25c-3ecfdc2e24b1")
+		(property "Reference" "J4"
+			(at 167.386 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 167.386 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9a5cf7c5-b955-4379-bbb9-0a758984c17f")
+		)
+		(pin "8"
+			(uuid "d13d1279-b9e3-4c80-906f-088ff30fdb8d")
+		)
+		(pin "6"
+			(uuid "3c2bc76c-0ef2-4873-b268-39fd0efd9709")
+		)
+		(pin "7"
+			(uuid "69ddacb9-82dc-41dc-a337-a9029889f228")
+		)
+		(pin "1"
+			(uuid "4297c10f-9cbc-44d2-9aa6-d068823e14d4")
+		)
+		(pin "5"
+			(uuid "65fa733e-75e8-45e1-b79c-ed3d971498f9")
+		)
+		(pin "2"
+			(uuid "53fd750f-bb39-48c9-9b66-c00a5182bf04")
+		)
+		(pin "3"
+			(uuid "ab564771-b2d0-446f-b8ce-0128b1d32b5a")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 107.95 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8759fe89-0f70-4665-bd73-58dee8808e3d")
+		(property "Reference" "SW13"
+			(at 107.95 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 107.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aa761b63-bbd3-4e22-9b29-c601649d8fb6")
+		)
+		(pin "1"
+			(uuid "79298a3b-9848-4884-8ace-f09bdfeb07cd")
+		)
+		(pin "2"
+			(uuid "332c395d-d017-4a4d-8045-2854420ed67e")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 134.62 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "947b24fc-2be8-4298-87a8-082b2874a12a")
+		(property "Reference" "SW7"
+			(at 134.62 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 134.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9eb1a760-8e70-4fbd-8cdf-4ee0bb2b0ba2")
+		)
+		(pin "1"
+			(uuid "a5292002-6f4a-4348-88d3-6ba888733a20")
+		)
+		(pin "2"
+			(uuid "d50f5a3d-04a0-42a3-a551-492168ceb9cc")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 45.72 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a26c5947-6400-4536-ae95-65074b1c4665")
+		(property "Reference" "J5"
+			(at 44.958 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 46.355 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c45e4ef-98d4-4af2-95fd-671bc44f6892")
+		)
+		(instances
+			(project ""
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 58.42 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb0e0306-6c9f-4236-b23e-2c70b2d6ba25")
+		(property "Reference" "SW9"
+			(at 58.42 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "73640570-3827-47ad-b09c-20292b7c717c")
+		)
+		(pin "1"
+			(uuid "8990de10-4156-41b6-9e1f-8159f33e4751")
+		)
+		(pin "2"
+			(uuid "dcd9a0c7-6919-438a-80ea-68981e2c0c8a")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 85.09 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc9a9e1f-3ac4-49ec-aa28-9159e8e98a8d")
+		(property "Reference" "SW3"
+			(at 85.09 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 85.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 85.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 85.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "660cf35c-fdf9-4c56-80c1-a1e9f5b1abbe")
+		)
+		(pin "1"
+			(uuid "f6478f80-f60c-44d5-aafb-d11422cf19e6")
+		)
+		(pin "2"
+			(uuid "751d06c5-b5d5-4483-ba48-fb8681161d21")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 96.52 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d085c2ad-3fa6-4bc4-98ef-f28121bc0cd9")
+		(property "Reference" "SW4"
+			(at 96.52 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 96.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "64f9afc0-340e-416d-86ca-78e68774c8fa")
+		)
+		(pin "1"
+			(uuid "038e2a2b-3408-4b67-9763-a3586b1478e8")
+		)
+		(pin "2"
+			(uuid "52cf07f7-9ad2-4cc3-b2bd-c95a09d67b77")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 133.35 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db9f6b30-8e8f-4186-a338-5afb06a9808b")
+		(property "Reference" "SW15"
+			(at 133.35 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "22942336-dd19-4cbc-afe1-5e1a443fbb20")
+		)
+		(pin "1"
+			(uuid "3969bb17-7a57-4252-a05b-03368f296ee6")
+		)
+		(pin "2"
+			(uuid "0409b4c8-0662-41cd-8f62-7ce34ea86465")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 71.12 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de816878-d853-4db0-b817-295c3138553a")
+		(property "Reference" "SW10"
+			(at 71.12 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:5mm_Linear_Switch"
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e070650a-2651-44af-b577-5cc50119604c")
+		)
+		(pin "1"
+			(uuid "fba8a7ff-abac-4269-a64c-2077f8b3d5a7")
+		)
+		(pin "2"
+			(uuid "9f6821fa-261f-4e27-81fa-23594d22d03c")
+		)
+		(instances
+			(project "Switch-Board"
+				(path "/44f5637b-1907-4f8d-9659-a5b3cd02a5b7"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
