@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J3",PinSocket_2x04_P2.54mm_Vertical,2,Conn_01x08_Pin,
+"J10, J11, J12, J13, J14",Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork,5,Conn_01x01_Pin,
+"J15, J16",MountingHole_2.5mm_Pad,2,Conn_01x01_Pin,
+"J17, J18, J19, J20",MountingHole_3.2mm_M3_DIN965_Pad,4,Conn_01x01_Pin,
+"J2, J4",PinHeader_1x08_P2.54mm_Vertical,2,Conn_01x08_Pin,
+"J5, J6, J7, J8, J9",Pin_D1.0mm_L10.0mm_LooseFit,5,Conn_01x01_Pin,
+"SW1, SW10, SW11, SW12, SW13, SW14, SW15, SW16, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9",5mm_Linear_Switch,16,SW_Nidec_CAS-120A1,
